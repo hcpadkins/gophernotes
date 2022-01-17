@@ -363,6 +363,7 @@ func sendKernelInfo(receipt msgReceipt) error {
 			Banner:                fmt.Sprintf("Go kernel: gophernotes - v%s", Version),
 			LanguageInfo: kernelLanguageInfo{
 				Name:          "go",
+				MIMEType:      "text/x-go",
 				Version:       runtime.Version(),
 				FileExtension: ".go",
 			},
