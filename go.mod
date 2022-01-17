@@ -1,4 +1,4 @@
-module github.com/gopherdata/gophernotes
+module github.com/hcpadkins/gophernotes
 
 go 1.13
 
